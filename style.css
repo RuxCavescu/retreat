@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "FromtheWoods";
+  src: url("fonts/FromtheWoods-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("img/bg.jpg");
+  padding: 150px 0px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+h1 {
+  font-family: "FromtheWoods";
+}
